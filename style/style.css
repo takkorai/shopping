@@ -1,5 +1,67 @@
-.head{
-	background-color: red;
-	height:430px;
-	width: 200px;
+body{
+	width:900px;
+	margin:auto;
+	font-family: Verdana, Geneva, sans-serif;
+
 }
+.head{
+	text-align: center;
+	font-size: 40px;
+}
+
+.wrap{
+	margin-top: 100px;
+
+}
+.add-form{
+	width:200px;
+	float:left;
+}
+.list{
+	width:600px;
+	float:right;
+	text-align: center;
+	vertical-align: middle;
+	list-style:none;
+	margin: 5px, 0px,0px,5px;
+}
+
+.check{
+	float:left;
+	height:40px;
+	width: 40px;
+	background-size: contain;
+	background-image:url("../images/check.png");
+}
+
+.delete{
+	float:right;
+	height:40px;
+	width: 40px;
+	background-size: contain;
+	background-image:url("../images/delete.png");
+}
+.indiv_item{
+	float:left;
+	width:520px;
+	text-align: center;
+}
+
+
+li{
+	height:40px;
+	width:100%;
+	background-color: #FF3D00;
+	border-bottom: 1px solid black;	
+}
+
+.checked{
+	text-decoration:line-through;
+	background-color: #009900;
+}
+
+
+.check:hover,.delete:hover{
+	cursor: pointer;
+}
+
