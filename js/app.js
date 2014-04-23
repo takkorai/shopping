@@ -6,8 +6,9 @@ $(document).ready(function(){
 			alert("please enter an item")
 		}
 		else{
-			$( ".list" ).prepend('<li class="item">'+'<div class="check"></div>'+'<div class="indiv_item">'+x+'</div>'+'<div class="delete"></div></li>');
 			$(".first").hide();
+			$('<li class="item">'+'<div class="check"></div>'+'<div class="indiv_item">'+x+'</div>'+'<div class="delete"></div></li>').hide().prependTo( ".list" ).slideDown("slow");
+			//$( ".list" ).prepend('<li class="item">'+'<div class="check"></div>'+'<div class="indiv_item">'+x+'</div>'+'<div class="delete"></div></li>').slideDown(slow);
 		}
 
 		
